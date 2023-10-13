@@ -1,0 +1,109 @@
+
+
+header{
+    background-color: #ededed;
+}
+
+
+.buttonHeader{
+    background-color: #80d0cd;
+    border-radius: 18px;
+    border-style: none;
+    color: #fff;
+    padding: 5px 12px 5px 12px;
+}
+
+.slider{
+    background-color: #e9ecee;
+    height: auto;
+    width: 100%;
+    overflow-x:hidden;
+}
+
+#arrowDireita, #arrowEsquerda{
+    justify-content: center;
+    align-items: center;
+    height: 3vw;
+    width: 3vw;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    background-color: transparent;
+    position: relative;
+}
+
+#arrowEsquerda{
+    bottom:21vw;
+    left: 11vw;
+}
+
+#arrowDireita{
+    bottom: 21vw;
+    left: 9vw;
+}
+
+.banner{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    flex-direction: column;
+    bottom: 45vh;
+    line-height: 13px;
+}
+
+.buttonBanner{
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #fff;
+    color: #fff;
+    background-color: transparent;
+}
+
+.banner > p {
+    color: #fff;
+}
+.banner > p:first-child{
+    font-size: 30px;
+    font-weight: bold;
+}
+
+.linhaProdutos{
+    display: flex;
+    flex-direction: row;
+}
+
+.produtoAgilidade, .produtoNestle, .produtoNutricao, .produtoEspecializacao{
+    display: flex;
+    flex-direction: column;
+    color:#fff;
+    padding: 20px;
+}
+
+.produtoAgilidade > img, .produtoNestle > img, .produtoNutricao > img, .produtoEspecializacao > img{
+    height: 50px;
+    width: 50px;
+}
+
+
+.produtoAgilidade{
+    background-color: #ff881c;
+}
+.produtoNestle{
+    background-color: #ff912e;
+}
+.produtoNutricao{
+    background-color: #ff9f48;
+}
+.produtoEspecializacao{
+    background-color: #ffac60;
+}
+
+
+
+
