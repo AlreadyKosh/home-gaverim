@@ -1,4 +1,24 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@400;700&family=Roboto:wght@100&display=swap');
 
+@font-face {
+  font-family: 'Montserrat';
+  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
+}
+body{
+    overflow-x:hidden;
+
+}
+h4, p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+    font-size: 18px;
+}
+
+p{
+    font-size: 14px;
+}
 
 header{
     background-color: #ededed;
@@ -17,7 +37,11 @@ header{
     background-color: #e9ecee;
     height: auto;
     width: 100%;
-    overflow-x:hidden;
+}
+
+.bannerPrincipal{
+    position: absolute;
+    top: 21vw;
 }
 
 #arrowDireita, #arrowEsquerda{
@@ -30,27 +54,25 @@ header{
     border-width: 1px;
     border-color: #fff;
     background-color: transparent;
-    position: relative;
+    position: absolute;
 }
 
 #arrowEsquerda{
-    bottom:21vw;
-    left: 11vw;
+    bottom:31vw;
+    left: 8vw;
 }
 
 #arrowDireita{
-    bottom: 21vw;
-    left: 9vw;
+    bottom: 31vw;
+    left: 10vw;
 }
 
 .banner{
     display: flex;
     justify-content: center;
     align-items: center;
-    position: relative;
     flex-direction: column;
-    bottom: 45vh;
-    line-height: 13px;
+    line-height: 16px;
 }
 
 .buttonBanner{
@@ -65,31 +87,42 @@ header{
     background-color: transparent;
 }
 
-.banner > p {
+.banner > div > p {
     color: #fff;
 }
-.banner > p:first-child{
-    font-size: 30px;
-    font-weight: bold;
+
+.tituloBanner{
+    font-size: 40px;
+    font-weight:bold ;
+}
+
+.subtituloBanner{
+    font-size: 18px;
 }
 
 .linhaProdutos{
     display: flex;
     flex-direction: row;
+    margin-top: 190px;
+    margin-bottom: 100px;
 }
 
 .produtoAgilidade, .produtoNestle, .produtoNutricao, .produtoEspecializacao{
     display: flex;
     flex-direction: column;
     color:#fff;
-    padding: 20px;
+    padding: 20px 10px 20px 10px;
 }
 
 .produtoAgilidade > img, .produtoNestle > img, .produtoNutricao > img, .produtoEspecializacao > img{
     height: 50px;
     width: 50px;
+    object-fit: contain;
 }
 
+.produtoAgilidade > p, .produtoNestle > p, .produtoNutricao > p, .produtoEspecializacao > p{
+   line-height: 20px;
+}
 
 .produtoAgilidade{
     background-color: #ff881c;
@@ -105,5 +138,10 @@ header{
 }
 
 
+
+.fundo{
+    background-image:url(assets/imgs/fundo.png);
+    background-repeat: no-repeat;
+}
 
 
