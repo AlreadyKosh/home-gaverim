@@ -1,14 +1,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@400;700&family=Roboto:wght@100&display=swap');
 
-@font-face {
-  font-family: 'Montserrat';
-  src: url('https://fonts.googleapis.com/css2?family=Inter:wght@100&family=Montserrat:wght@100&family=Roboto:wght@100&display=swap');
-}
 body{
     overflow-x:hidden;
-
-}
-h4, p{
     font-family: 'Montserrat', sans-serif;
 }
 
@@ -17,7 +10,7 @@ h4{
 }
 
 p{
-    font-size: 14px;
+    font-size: 15px;
 }
 
 header{
@@ -42,6 +35,7 @@ header{
 .bannerPrincipal{
     position: absolute;
     top: 21vw;
+    margin-left: 40px;
 }
 
 #arrowDireita, #arrowEsquerda{
@@ -59,12 +53,12 @@ header{
 
 #arrowEsquerda{
     bottom:31vw;
-    left: 8vw;
+    left: 12vw;
 }
 
 #arrowDireita{
     bottom: 31vw;
-    left: 10vw;
+    left: 7.5vw;
 }
 
 .banner{
@@ -103,7 +97,7 @@ header{
 .linhaProdutos{
     display: flex;
     flex-direction: row;
-    margin-top: 190px;
+    margin-top: 160px;
     margin-bottom: 100px;
 }
 
@@ -111,7 +105,7 @@ header{
     display: flex;
     flex-direction: column;
     color:#fff;
-    padding: 20px 10px 20px 10px;
+    padding: 35px 15px 25px 15px;
 }
 
 .produtoAgilidade > img, .produtoNestle > img, .produtoNutricao > img, .produtoEspecializacao > img{
@@ -144,4 +138,62 @@ header{
     background-repeat: no-repeat;
 }
 
+.margin{
+    margin: 220px 0 40px 0;
+    color: #82817f;
+}
+
+
+
+.textoHaverim{
+    color: #a5a5a5;
+    font-size: 13px;
+}
+.textoDestaques{
+    font-size: 26px;
+    color: #82817f;
+}
+
+.textoConfira{
+    color: #b5b5b5;
+    font-size: 18px;
+}
+
+.underline{
+    border-style: solid;
+    border-color: #c67936;
+    border-width: 1px;
+    width: 8%;
+    margin-bottom: 70px;
+}
+
+.dots{
+    border-color: #f0f0f0;
+    border-style: solid;
+    border-width: 2px;
+    width:20px;
+    height:20px;
+    border-radius:50%;
+}
+
+.slick-active .dots{
+    background-color:  #f0f0f0;
+}
+
+.slick-dots{
+    padding-right: 20px;
+}
+
+.slider-dots{
+    z-index: 1;
+
+}
+.tela{
+    background-color: #f8f4f1;
+    position: absolute;
+    margin: 50px 0 0 20px;
+    z-index: 0;
+    width: 170px;
+    height: 350px;
+}
 
