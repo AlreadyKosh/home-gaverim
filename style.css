@@ -301,3 +301,78 @@ textarea::placeholder{
     background-color: transparent;
 }
 
+/*SEÇÃO DICAS DE SAÚDE*/
+
+.subTexto{
+    margin-top: 130px;
+    color: #b5b5b5;
+}
+
+.textoPrincipal{
+    color: #82817f;
+}
+
+.underlineSecaoDicas{
+    border-style: solid;
+    border-color: #c67936;
+    border-width: 1px;
+    width: 4%;
+    margin-bottom: 50px;
+    margin-top: 10px;
+}
+
+.imgSecaoDicas{
+    width: 100%;
+    object-fit: cover;
+}
+
+.blocoLaranja{
+    z-index: -1;
+    right: 290px;
+    background-color: #fa8a4f;
+    position: absolute;
+    width: 37%;
+    height: 59%;
+}
+
+.tituloDicas{
+    margin: 15px 0 5px 7px;
+
+    color: #82817f;
+    font-size: 25px;
+}
+
+.descricaoDicas{
+    margin-left: 5px; 
+    text-align: justify;
+    color: #82817f;
+    font-size: 13px;
+}
+
+.blocoEsquerda{
+    width: 70%;
+    height: 53.5%;
+    background-color: #e8eded; 
+}
+
+.blocoCompletoEsquerda{
+    position: absolute;
+    background-color: #f7f9f9;
+    width: 90%;
+    height: 53.5%;
+}
+
+.blocoDireita{
+    margin-top: 10px;
+    width: 70%;
+    height: 53.5%;
+    background-color: #e8eded; 
+}
+
+.blocoCompletoDireita{
+    margin-top: 10px;
+    background-color: #f7f9f9;
+    width: 90%;
+    height: 53.5%;
+}
+
