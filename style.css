@@ -433,8 +433,6 @@ textarea::placeholder{
     
 }
 
-.imgSecaoFooter{
-}
 
 .textoFooter{
     font-size: 14px;
@@ -443,6 +441,35 @@ textarea::placeholder{
 
 .textoFooterLaranja{
     color: #ff7329;
+    font-size: 13px;
+}
+
+.marginSecaoFooter{
+    margin-top: 35px;
+}
+
+.fundoCinza{
+    box-sizing: border-box;
+    background-color: #f0f0f0;
+    width: 100%;
+    padding: 35px;
+    margin: 30px 0 70px 0;
+}
+
+.linhaVertical {
+    margin-top: 12px;
+    height: 10px;
+    border-left: 1px solid;
+    color: #b3b3b3;
+  }
+
+.corLinkFooter{
+    color: #b3b3b3;
+    font-size: 12px;
+}
+
+.textoFooterMarcaSite{
+    color: #b2b2b2;
     font-size: 13px;
 }
 
