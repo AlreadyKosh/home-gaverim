@@ -186,8 +186,8 @@ header{
 
 .slider-dots{
     z-index: 1;
-
 }
+
 .tela{
     background-color: #f8f4f1;
     position: absolute;
@@ -195,5 +195,109 @@ header{
     z-index: 0;
     width: 170px;
     height: 350px;
+}
+
+.slider-produtos{
+    margin-top: 150px;
+}
+
+.produtos{
+    height: 100px;
+    width: 100px;
+}
+
+
+/*SEÇÃO SOLICITE VISITA*/
+
+.fundoVisita{
+    margin-top: 200px;
+    width: 100%;
+    background-color: #fff7eb;
+}
+
+.imgSecaoVisita{
+    width: 100%;
+    object-fit: cover;
+    object-position:right
+
+}
+
+.tituloForm{
+    font-size: 25px;
+    color: #82817f;
+}
+.descricaoForm{
+    font-size: 17px;
+    color: #b5b5b5;
+    text-align: center;
+}
+.underlineForm{
+    border-style: solid;
+    border-color: #c67936;
+    border-width: 1px;
+    width: 15%;
+    margin-bottom: 30px;
+}
+
+.inputs{
+    width: 100%;
+    padding: 9px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #e5e2e2;
+    color: #000;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.textAreaForm{
+    width: 100%;
+    height: 170px;
+    padding: 9px;
+    border-style: solid;
+    border-radius: 10px;
+    border-color: #e5e2e2;
+    color: #000;
+    margin-bottom: 15px;
+    resize: none;
+}
+
+.linha{
+    display: flex;
+    flex-direction: row;
+}
+
+input::placeholder{
+    color: #c6c6c6;
+}
+
+textarea::placeholder{
+    color: #c6c6c6;
+}
+
+.buttonsForm{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.buttonsForm span{
+    border-style: solid;
+    border-color: #f4e7d4;
+    border-width: 1px;
+    width: 10%;
+    margin: 0 10px 0 10px;
+}
+
+.buttonForm{
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 2px;
+    border-color: #dac29f;
+    color: #dac29f;
+    background-color: transparent;
 }
 
