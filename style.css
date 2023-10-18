@@ -376,3 +376,73 @@ textarea::placeholder{
     height: 53.5%;
 }
 
+
+/*SEÇÃO ATUAÇÃO*/
+.backgroundMapa{
+    margin-top: 120px;
+    background-image: url(assets/imgs/fundoMapa.png);
+    background-repeat: no-repeat;
+    height: 100%;
+    width: 100%;
+}
+
+.conteudo{
+    margin: 50px;
+}
+
+.conteudo > h3{
+    color: #fff;
+    font-weight: bold;
+    font-size: 33px;
+}
+
+.conteudo > h3:first-child{
+    margin-top: 75px;
+}
+
+.conteudo > h4{
+    margin: 25px 0 70px 0;
+    color: #fff;
+    font-size: 18px;
+}
+
+.buttonSecaoAtuacao{
+    justify-content: center;
+    align-items: center;
+    padding: 15px 30px 15px 30px;
+    border-radius: 30px;
+    border-style: solid;
+    border-width: 1px;
+    border-color: #c0bfbf;
+    color: #9b9b9b;
+    background-color: #fff;
+}
+
+/*SEÇÃO FOOTER*/
+
+.underlineSecaoFooter{
+    border-style: solid;
+    border-color: #e87815;
+    border-width: 1px;
+    width: 20%;
+    margin-top: 70px;
+}
+
+.imgLogoFooter{
+    margin-bottom: 60px;
+    
+}
+
+.imgSecaoFooter{
+}
+
+.textoFooter{
+    font-size: 14px;
+    color: #b3b3b3;
+}
+
+.textoFooterLaranja{
+    color: #ff7329;
+    font-size: 13px;
+}
+
